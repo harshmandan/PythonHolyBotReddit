@@ -9,7 +9,7 @@ Simple reddit bot which can be used to give virtual token to users and also keep
 ## Installation & Requirements
 
 Download both files.
-Set up init.py with your developer-account credentials.
+Set up config.py with your developer-account credentials.
 Make sure you have praw installed.
 ```sh
 pip install praw
