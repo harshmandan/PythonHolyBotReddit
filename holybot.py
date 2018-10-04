@@ -130,6 +130,8 @@ def get_holydata():
 def update_moisture(comment):
 	if comment.author in holydata:
 		holydata[comment.author] += 50
+	if comment.author == 'null':
+		print('Exception Found')
 	else:
 		holydata[comment.author] = 50
 	pickle.dump(holydata, open('holydata.gau', 'wb'))
